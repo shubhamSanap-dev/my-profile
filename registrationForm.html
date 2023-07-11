@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color:burlywood;
+        }
+        input{
+            border-radius: 7px;
+        }
+        legend{
+            font-family: 'Poppins', sans-serif;
+        }
+        table{
+            font-family: 'Signika Negative', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="border: solid black;">
+        <legend>Registration Form</legend>
+        <table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" placeholder="Enter Here" ></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Abc@Gmail.com"></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td>Contact Number</td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td>Upload Photo</td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">Other
+                </td>
+            </tr>
+            <tr>
+                <td>Marital Status</td>
+                <td><input type="radio" name="Status">Married 
+                <input type="radio" name="Status">Unmarried</td>
+            </tr>
+            <tr>
+                <td>Available in week</td>
+                <td><input type="datetime"></td>
+            </tr>
+            <tr>
+                <td>Known Tools and Technology</td>
+                <td><input type="checkbox">Anguler
+                    <input type="checkbox">Javascript
+                    <input type="checkbox">Python
+                    <input type="checkbox">React
+                    <input type="checkbox">GIT
+                </td>
+            </tr>
+            <tr>
+                <td>Designation</td>
+                <td><select>
+                    <option value="">UI Developer</option>
+                    <option value="">Frontend Developer</option>
+                    <option value="">Backend Developer</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="" id="" cols="50" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><button>Submit</button></td>
+                <td><button>Reset</button></td>
+            </tr>
+        </table>
+    </fieldset>
+    
+</body>
+</html>

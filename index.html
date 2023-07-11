@@ -8,7 +8,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300;1,400&family=Sofia&display=swap" rel="stylesheet">
+
     <style>
+      a{
+        text-underline-offset: none;
+      }
       body {
         background-color: burlywood;
       }
@@ -16,17 +26,22 @@
         background-color: cornsilk;
         text-underline-offset: none;
       }
-      .headerContent {
+      .headerContent,nav ul li {
+        font-family: 'Poppins', sans-serif;
         margin-right: 20px;
       }
-      nav ul li  {
+      nav ul li {
         display: inline-block;
         width: 150px;
         text-transform: uppercase;
       }
-      footer ul li{
+      footer ul li {
         display: inline-block;
         width: 100px;
+      }
+      .Copyright{
+        text-align: center;
+        font-family: 'Sofia', cursive;
       }
     </style>
   </head>
@@ -39,18 +54,34 @@
       <i class="fa fa-envelope" aria-hidden="true"></i>
       <span class="headerContent">sanapshubham305@gmail.com</span>
       <a href="ShubhamCV .pdf" download="download"
-        ><button class="headerContent">DOWNLOAD RESUME</button></a
+        ><button class="headerContent" style="border-radius: 10px;">DOWNLOAD RESUME</button></a
       >
     </div>
     <br />
     <nav>
       <ul>
-        <li><a href="professionalSummery.html" target="Myframe"><span >HOME</span></a></li>
-        <li><a href="techStack.html" target="Myframe"><span >TECH STACK</span></a></li>
-        <li><a href="projectDetails.html" target="Myframe"><span >PROJECT</span></a></li>
-        <li><a href="Education.html" target="Myframe"><span >EDUCATION</span></a></li>
-        <li><a href="professionalSummery.html" target="Myframe"><span >ABOUT ME</span></a></li>
-      </ul>  
+        <li>
+          <a href="professionalSummery.html" target="Myframe"
+            ><span>HOME</span></a
+          >
+        </li>
+        <li>
+          <a href="techStack.html" target="Myframe"><span>TECH STACK</span></a>
+        </li>
+        <li>
+          <a href="projectDetails.html" target="Myframe"
+            ><span>PROJECT</span></a
+          >
+        </li>
+        <li>
+          <a href="Education.html" target="Myframe"><span>EDUCATION</span></a>
+        </li>
+        <li>
+          <a href="professionalSummery.html" target="Myframe"
+            ><span>ABOUT ME</span></a
+          >
+        </li>
+      </ul>
     </nav>
     <br />
     <iframe
@@ -60,21 +91,33 @@
       src="professionalSummery.html"
     ></iframe>
     <footer>
-      
       <ul>
         <li><span>Follow Me:</span></li>
-        <li><a href="https://github.com/shubhamSanap-dev/my-profile.git"
-          target="_blank"
-          ><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="www.linkedin.com/in/shubham-sanap-a659a21b1"
-          target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://twitter.com/shubham98997708"
-          target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank" ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
-        ></a></li>
+        <li>
+          <a
+            href="https://github.com/shubhamSanap-dev/my-profile.git"
+            target="_blank"
+            ><i class="fa fa-github fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="www.linkedin.com/in/shubham-sanap-a659a21b1" target="_blank"
+            ><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/shubham98997708" target="_blank"
+            ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+          ></a>
+        </li>
       </ul>
       <br />
-      <p style="text-align: center">
+      <p class="Copyright">
         Copyright © 2023 ShubhamSanap-dev. All rights reserved.
       </p>
     </footer>
