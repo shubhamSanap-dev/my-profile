@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+   <style>
+    .photo-section{
+        display: inline-block;
+    }
+    .content-section{
+        display: inline-block; 
+    }
+    .points li{
+        padding: 10px;
+        list-style-type: none;
+    }
+    .points li::before{
+        content: "✍️";
+    }
+    .points li:hover{
+        background-color: black;
+        color: goldenrod;
+        font-size: larger;
+        text-shadow: 3px 3px 5px;
+        
+    }
+    .para::selection{
+        color: rgb(239, 101, 101);
+    }
+   </style>
+</head>
+<body>
+    <fieldset style="box-shadow: 5px 5px 10px; border-radius: 20px; width: 800px;">
+        <div class="container">
+            <div class="photo-section">
+                <img src="freelance-web-developers.png" width="300px" height="300px" >
+                
+            </div>
+            <div class="content-section">
+                <h2> Compare Text Online </h2>
+                <ul class="points">
+                    <li>Compre Text online free</li>
+                    <li>Ignore order and namespaces</li>
+                    <li>Side by side diff view</li>
+                    <li>Get results in tabuler format for quick reference</li>
+                    <li>Text diff tool</li>
+                    <li>REST API</li>
+                </ul>
+            </div>
+        </div>
+        <p class="para">
+            <p style="font-weight: bolder; margin-bottom: -10px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Powered By</p>
+                <span style="font-size: x-large; font-weight: bold;"><i class="fa fa-cog fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;JSoftwareLabs</span>
+                <footer style="text-align: center;">
+                  
+                   <span style="font-weight: bolder; font-size: larger;">Follow Me:</span>
+                        <a
+                          href="https://github.com/shubhamSanap-dev/my-profile.git"
+                          target="_blank"
+                          ><i class="fa fa-github fa-2x" aria-hidden="true"></i
+                        ></a>                     
+                        <a href="www.linkedin.com/in/shubham-sanap-a659a21b1" target="_blank"
+                          ><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i
+                        ></a>
+                       <a href="https://twitter.com/shubham98997708" target="_blank"
+                          ><i class="fa fa-twitter fa-2x" aria-hidden="true"></i
+                        ></a>
+                    
+                        <a href="https://www.instagram.com/" target="_blank"
+                          ><i class="fa fa-instagram fa-2x" aria-hidden="true"></i
+                        ></a>
+                     
+                     </footer>
+        </p>
+    </fieldset>
+    
+
+</body>
+</html>
