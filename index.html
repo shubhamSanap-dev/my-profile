@@ -41,7 +41,6 @@
         display: inline-block;
         width: 150px;
         text-transform: uppercase;
-
       }
       footer ul li {
         display: inline-block;
@@ -51,28 +50,24 @@
         text-align: center;
         font-family: "Sofia", cursive;
       }
-      nav ul li a :hover{
+      nav ul li a :hover {
         color: cadetblue;
       }
-      button{
-        color: #fff ;
-        position: relative;
-        overflow: hidden;
-        padding: 5px;
+      button {
+        color: white;
         background-color: black;
-      
       }
-      button::after{
-        content: '';
+      button::after {
+        content: "";
         display: block;
-        height: 4px;
+        height: 2px;
         width: 100%;
-        background-color: #2bd576;
+        background-color: green;
         transform: scaleX(0);
-        transform-origin: left;
-        transition: transform 0.3s ease;
+        transition: transform 0.5s;
+        transform-origin: right;
       }
-      button:hover::after{
+      button:hover::after {
         transform: scale(1);
       }
     </style>
@@ -118,11 +113,12 @@
       </ul>
     </nav>
     <br />
-    <iframe style="border: none;"
+    <iframe
+      style="border: none"
       width="700"
       height="400"
       name="Myframe"
-      src="professionalSummery.html" 
+      src="professionalSummery.html"
     ></iframe>
     <footer>
       <ul>
